@@ -1,3 +1,5 @@
+
+// Rest
 // function showList(empresa, ...clientes) {
 //   console.log(empresa);
 //   console.log(clientes);
@@ -5,6 +7,7 @@
 
 // showList("Origamid", "João", "Maria", 10);
 
+// Spread
 // const numeros = [1, 2, 4, 29, 32, 2, 45, 3];
 
 // console.log(Math.max(...numeros));
@@ -47,6 +50,7 @@
 // console.log(carro);
 // console.log(cloneCarro);
 
+// Shallow Clone
 class Transporte {
   constructor() {
     this.terrestre = true;
@@ -63,5 +67,5 @@ class Carro extends Transporte {
 
 const meuCarro = new Carro("vermelho", 4);
 
-// Shallow Clone
+
 const cloneCarro = { ...meuCarro };
